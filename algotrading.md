@@ -111,12 +111,13 @@ amd_df <- amd_df[amd_df$date >= start_date & amd_df$date <= end_date, ]
 ```
 
 
-### Step 4: Run Your Algorithm and Analyze Results
+### Step 4: Run Your Algorithm and Analyse Results
 After running your algorithm, check if the trades were executed as expected. Calculate the total profit or loss and ROI from the trades.
 
 - Total Profit/Loss Calculation: Calculate the total profit or loss from your trades. This should be the sum of all entries in the 'costs_proceeds' column of your dataframe. This column records the financial impact of each trade, reflecting money spent on buys as negative values and money gained from sells as positive values.
 - Invested Capital: Calculate the total capital invested. This is equal to the sum of the 'costs_proceeds' values for all 'buy' transactions. Since these entries are negative (representing money spent), you should take the negative sum of these values to reflect the total amount invested.
-- ROI Formula: $$\text{ROI} = \left( \frac{\text{Total Profit or Loss}}{\text{Total Capital Invested}} \right) \times 100$$
+- ROI Formula:
+$$\text{ROI} = \left( \frac{\text{Total Profit or Loss}}{\text{Total Capital Invested}} \right) \times 100$$
 
 ```r
 # Initialise columns for trade type, cost/proceeds, and accumulated shares in amd_df
@@ -169,7 +170,7 @@ The PnL for the trading period is $`r format(total_profit_loss_1, scientific=FAL
 
 Therefore, the ROI is `r sprintf("%.2f%%", ROI_1)`.
 
-### Step 5: Profit-Taking Strategy or Stop-Loss Mechanisum (Choose 1)
+### Step 5: Profit-Taking Strategy or Stop-Loss Mechanism (Choose 1)
 - Option 1: Implement a profit-taking strategy that you sell half of your holdings if the price has increased by a certain percentage (e.g., 20%) from the average purchase price.
 - Option 2: Implement a stop-loss mechanism in the trading strategy that you sell half of your holdings if the stock falls by a certain percentage (e.g., 20%) from the average purchase price. You don't need to buy 100 stocks on the days that the stop-loss mechanism is triggered.
 
@@ -232,7 +233,7 @@ for (i in 1:nrow(amd_df)) {
 ```
 A new strategy is implemented to maximise profit by selling half of the holdings if the current price has increased by 40% from the average purchase price.
 
-### Step 6: Summarize Your Findings
+### Step 6: Summarise Your Findings
 - Did your P/L and ROI improve over your chosen period?
 - Relate your results to a relevant market event and explain why these outcomes may have occurred.
 
