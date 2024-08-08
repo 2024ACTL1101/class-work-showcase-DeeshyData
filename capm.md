@@ -118,7 +118,7 @@ summary(model)
 
 #### Interpretation
 
-What is your \(\beta\)? Is AMD more volatile or less volatile than the market?
+What is your $\beta\$? Is AMD more volatile or less volatile than the market?
 
 **Answer:**
 The calculated $\beta$ is `r summary(model)$coefficients[2, 1]`. Since $\beta>1$, the AMD stock is expected to increase by approximately `r sprintf("%.0f%%", (summary(model)$coefficients[2, 1] - 1) * 100)`. This suggests that the AMD stock is more sensitive to fluctuations in the market and indicates higher risk. Therefore, AMD is more volatile than the market, leading to higher risk but also potential higher returns.
