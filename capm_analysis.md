@@ -200,7 +200,7 @@ ggplot(df, aes(x = GSPC_Excess, y = AMD_Excess)) +
 
     ## `geom_smooth()` using formula = 'y ~ x'
 
-![](capm_analysis_files/figure-gfm/plot-1.png)<!-- -->
+![capm](capm.png)<!-- -->
 
 ### Step 3: Prediction Interval
 
