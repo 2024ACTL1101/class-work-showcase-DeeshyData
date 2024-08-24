@@ -208,10 +208,10 @@ Suppose the current risk-free rate is 5.0%, and the annual expected
 return for the S&P 500 is 13.3%. Determine a 90% prediction interval for
 AMD’s annual expected return.
 
-*Hint: Calculate the daily standard error of the forecast (*$s_f$), and
+*Hint: Calculate the daily standard error of the forecast ($s_f$), and
 assume that the annual standard error for prediction is
 $s_f \times \sqrt{252}$. Use the simple return average method to convert
-annual stock returns to daily returns if needed.
+annual stock returns to daily returns if needed.*
 
 ``` r
 beta_i <- summary(model)$coefficients[2, 1]
