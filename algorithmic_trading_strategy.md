@@ -73,7 +73,7 @@ Plot the closing prices over time to visualise the price movement.
 plot(amd_df$date, amd_df$close,'l')
 ```
 
-![](algorithmic_trading_strategy_files/figure-gfm/plot-1.png)<!-- -->
+![plot-1](plot-1.png)
 
 ### Step 2: Trading Algorithm
 
@@ -318,7 +318,7 @@ ROI_2 <- (total_profit_loss_2 / total_capital_invested_2) * 100
 plot(amd_df$date, amd_df$close, 'l')
 ```
 
-![](algorithmic_trading_strategy_files/figure-gfm/summary-1.png)<!-- -->
+![summary-1](summary-1.png)
 
 The graph of the defined period depicts AMD shares from 01/07/2022 to
 30/06/2023. It is evident that the AMD shares had a large decrease from
