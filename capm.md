@@ -1,4 +1,3 @@
-
 # CAPM Analysis
 
 ## Introduction
