@@ -24,7 +24,7 @@ This is written in markdown language.
 * [General Insurance](general.md)
 * [Banking and ERM](banking.md)
 * Coding Assignment: [Algorithmic Trading Strategy](algorithmic_trading_strategy.md)
-* Coding Assignment: [CAPM](capm.md)
+* Coding Assignment: [CAPM](capm_analysis.md)
 
 
 
