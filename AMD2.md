@@ -177,7 +177,8 @@ expected. Calculate the total profit or loss and ROI from the trades.
   should take the negative sum of these values to reflect the total
   amount invested.
 - ROI Formula:
-  $$\text{ROI} = \left( \frac{\text{Total Profit or Loss}}{\text{Total Capital Invested}} \right) \times 100$$
+
+$$\text{ROI} = \left( \frac{\text{Total Profit or Loss}}{\text{Total Capital Invested}} \right) \times 100$$
 
 ``` r
 # Initialise columns for trade type, cost/proceeds, and accumulated shares in amd_df
@@ -343,7 +344,7 @@ strategy, we can compare their respectively calculated PnL and ROI.
 
 We can calculate the change in PnL using the following formula:
 
-$$\Delta{\text{PnL}}={\text{PnL}}_{\text{strategy 2}}-{\text{PnL}}_{\text{strategy 1}}$$
+$$\Delta\text{PnL} = \text{PnL}\_{\text{strategy 2}} - \text{PnL}\_{\text{strategy 1}}$$
 
 Given that the PnL calculated for strategy 1 was \$386232.1 and for
 strategy 2 was \$485894.7 The change in PnL is \$99662.61. Since this
@@ -352,9 +353,10 @@ and was therefore more beneficial. It follows that the second strategy
 should produce a higher ROI which is evident when comparing their
 respective ROI:
 
-$$\Delta{\text{ROI}}={\text{ROI}}_{\text{strategy 2}}-{\text{ROI}}_{\text{strategy 1}}$$
+$$\Delta\text{ROI} = \text{ROI}\_{\text{strategy 2}} - \text{ROI}\_{\text{strategy 1}}$$
 
 The ROI for strategy 1 was 37.64%, while it was 53.56% for strategy 2.
 This produces a difference of 15.92% which is also positive indicating
 that the second strategy provided a higher ROI. This is also supported
 by the increase in PnL.
+
