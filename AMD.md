@@ -1,8 +1,3 @@
-ACTL1101 Assignment Part A
-================
-Aadeesh Singhal
-2024 T2
-
 ## Algorithmic Trading Strategy
 
 ## Introduction
