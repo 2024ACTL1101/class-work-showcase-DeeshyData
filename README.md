@@ -23,8 +23,8 @@ This is written in markdown language.
 * [Retirement and Health](super.md)
 * [General Insurance](general.md)
 * [Banking and ERM](banking.md)
-* Coding Assignment: [Algorithmic Trading](algotrading.md) <- filled this
-* Coding Assignment: [CAPM Model](capm.md) <- filled this
+* Coding Assignment: [Algorithmic Trading Strategy](algorithmic_trading_strategy.md) <- filled this
+* Coding Assignment: [CAPM](capm.md) <- filled this
 
 
 
